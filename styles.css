@@ -1,0 +1,187 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+main {
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  background-color: black;
+  height: 80px;
+  line-height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  /* color: white; */
+  font-size: 19px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+}
+
+.nav-link a:hover {
+  background-color: red;
+}
+
+ul {
+  margin: 0px;
+}
+
+ul li {
+  float: left;
+  padding: 0px 10px;
+  list-style: none;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+
+  background-image: url(/Images/OYSTER-BANNER.JPG);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero-title {
+  font-size: 4em;
+  margin-top: 0;
+  margin-bottom: 0.2em;
+  color: black;
+  font-family: "Rampart One", cursive;
+}
+
+.hero h2 {
+  font-size: 2em;
+}
+
+.hero a {
+  /* Positioning and sizing */
+  display: block;
+  width: 200px;
+
+  /* Padding and margins */
+  padding: 1em;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* Text styles */
+  color: black;
+  background-color: rgb(222, 205, 150);
+  text-decoration: none;
+  font-size: 1em;
+
+  /* Border styles */
+  border: 3px solid black;
+  border-radius: 20px;
+}
+
+.eses-footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.icons {
+  width: 50px;
+  height: 50px;
+}
+
+.menu-wrapper {
+  padding: 20px;
+  align-items: center;
+  background: black;
+}
+
+.menu-wrapper p, span, h3, th, td {
+  color: white;
+}
+.menu-header {
+  text-align: center;
+  font-size: 30px;
+}
+
+.menu-row{
+  display: flex;
+  justify-content: space-around;
+}
+.menu-item {
+  padding: 20px;
+}
+
+.menu-item-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-item-title_food-name {
+  font-weight: bold;
+}
+
+.info-wrapper {
+  padding: 20px;
+  align-items: center;
+  background-image: url(/Images/OYSTER-BANNER.JPG);
+}
+
+.info-row {
+  display: flex;
+  justify-content: center;
+}
+
+.info-row p {
+  color: white;
+}
+
+.info-item {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.info-item-title {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.contact-form {
+  padding: 20px;
+}
+
+.form-input-section {
+  justify-content: left;
+  padding: 20px;
+}
+
+.form-input-section input {
+  margin-top: 10px;
+  padding: 10px;
+  display:block;
+  width: 100%
+}
+
+.form-submit-btn {
+  padding: 10px;
+  background: green;
+  border-radius: 5px;
+}
